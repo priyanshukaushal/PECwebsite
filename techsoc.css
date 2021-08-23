@@ -1,0 +1,70 @@
+.heading{
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card{
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.card-header{
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(82, 63, 63);
+}
+.carousel{
+    margin-bottom: 2%;
+}
+.content{
+    text-align: left;
+    color: rgb(59, 58, 58)
+}
+.nested-card{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 1px rgb(82, 63, 63);
+    margin-bottom: 5%;
+    margin: 1% 0;
+
+}
+
+.nested-card:hover{
+    box-shadow: 0 0 3px rgb(82, 63, 63);
+    cursor: pointer;
+}
+.nested-card-header{
+    color: white;
+    background-color: rgb(82, 63, 63);
+    padding: 0.5px 15px;
+}
+
+.nested-card-body{
+    padding: 15px;
+}
+
+.logo-div{
+    text-align: center;
+}
+
+.nested-card-logo{
+    object-fit: cover;
+    width: 90%;
+}
+
+.nested-card-text{
+    text-align: center;
+    color: rgb(59, 58, 58);
+}
+.info-text{
+    width: 100%;
+    text-align: justify;
+    margin: 0 1%;
+    font-size: 14px;
+}
+
+.info-text-names{
+    margin-top: 3%;
+}
